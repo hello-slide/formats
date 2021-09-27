@@ -53,6 +53,4 @@ export interface Question {
   }[];
 }
 
-type SlidePageData = Quiz | Question;
-
-export default SlidePageData;
+export type SlidePageData = Quiz | Question;
